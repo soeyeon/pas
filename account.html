@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html land="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>Account</title>
+        <link rel="stylesheet" href="acstyle.css">
+        <script src="jquery-3.4.1.js"></script>
+    </head>
+    <body>
+        <section class="account-form">
+            <h1>CREATE YOUR ACCOUNT</h1>
+            <form method="GET" action="account_check.php">
+                <div class="int-area">
+                    <input type="text" name="id" id="id"
+                    autocomplete="off" required>
+                    <label for="id">ID</label>
+                </div>
+                <div class="int-area">
+                    <input type="password" name="pw" id="pw"
+                    autocomplete="off" required>
+                    <label for="pw">PASSWORD</label>
+                </div>
+                <div class="int-area">
+                    <input type="email" name="em" id="em"
+                    autocomplete="off" required>
+                    <label for="em">EMAIL</label>
+                </div>
+                <div class="btn-area">
+                    <button type="submit">CREATE</button>
+                </div>
+            </form>
+            <div class="caption">
+                <a href="login.html">Go Home</a>
+            </div>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html land="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>Login</title>
+        <link rel="stylesheet" href="homestyle.css">
+        <script src="jquery-3.4.1.js"></script>
+    </head>
+    <body>
+        <section class="login-form">
+            <h1>ID/PW STORAGE</h1>
+            <form method="GET" action="login_check.php">
+                <div class="int-area">
+                    <input type="text" name="id" id="id"
+                    autocomplete="off" required>
+                    <label for="id">ID</label>
+                </div>
+                <div class="int-area">
+                    <input type="password" name="pw" id="pw"
+                    autocomplete="off" required>
+                    <label for="pw">PASSWORD</label>
+                </div>
+                <div class="btn-area">
+                    <button type="submit">LOGIN</button>
+                </div>
+            </form>
+            <div class="caption">
+                <a href="account.html">Creat Account</a>
+            </div>
+        </section>
+    </body>
+</html>
